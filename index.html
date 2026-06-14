@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Matematika</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>🧮 Quiz Matematika</h1>
+
+        <div id="quiz-box">
+            <h2 id="question">Pertanyaan akan muncul di sini</h2>
+
+            <input
+                type="number"
+                id="answer"
+                placeholder="Masukkan jawaban"
+            >
+
+            <button onclick="checkAnswer()">Jawab</button>
+
+            <p id="result"></p>
+
+            <p>Skor: <span id="score">0</span></p>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
